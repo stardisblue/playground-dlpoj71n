@@ -1,12 +1,4 @@
-﻿let assert = require('assert');
-let universe = require('./professeur_guique.js');
-
-let reduceUsed = false;
-let superReduce = Array.prototype.reduce;
-Array.prototype.reduce = function () {
-  reduceUsed = true;
-  return superReduce.apply(this, arguments);
-};
+﻿let universe = require('./professeur_guique.js');
 
 let tests = createTests();
 let success = 0;
