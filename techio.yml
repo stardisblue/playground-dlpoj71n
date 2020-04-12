@@ -1,29 +1,5 @@
 title: Exercices - Module M2206 - MMI1
 plan:
-  - title: Introduction
-    statement: markdowns/intro.md
-
-  - title: Les types, variables et constantes
-    statement: markdowns/types_variables_constantes.md
-
-  - title: Les fonctions
-    statement: markdowns/fonctions.md
-
-  - title: Les tests
-    statement: markdowns/tests.md
-
-  - title: Les opérateurs
-    statement: markdowns/operateurs.md
-
-  - title: Les boucles
-    statement: markdowns/boucles.md
-
-  - title: Les structures de données
-    statement: markdowns/structures.md
-
-  - title: Quelques exemples
-    statement: markdowns/exemples.md
-
   - title: Exercice 1
     statement: markdowns/exercice_1.md
 

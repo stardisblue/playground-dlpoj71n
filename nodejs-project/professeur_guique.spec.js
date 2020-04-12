@@ -1,9 +1,9 @@
-﻿let universe = require('./professeur_guique.js');
+﻿let exercice = require('./professeur_guique.js');
 
 let tests = createTests();
 let success = 0;
 tests.forEach(function(test) {
-  if(universe.algorithmeProfesseurGuique.apply(null, test.values) === test.answer){
+  if(exercice.algorithmeProfesseurGuique.apply(null, test.values) === test.answer){
     printMessage('Success', '✓ '+test.name+' succed');
     success++;
   }
