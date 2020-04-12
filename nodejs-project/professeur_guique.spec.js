@@ -12,21 +12,21 @@ let tests = createTests();
 let success = 0;
 tests.forEach(function(test) {
   if(universe.algorithmeProfesseurGuique.apply(null, test.values) === test.answer){
-    printMessage('success', '✓ '+test.name+' succed');
+    printMessage('Success', '✓ '+test.name+' succed');
     success++;
   }
   else{
-    printMessage('error', 'X '+test.name+' failed');
+    printMessage('Error', 'X '+test.name+' failed');
   }
 }, this);
 
-it('Un peu d\'aide ?', function () {
-  if (success==10) {
-    printMessage('Conclusion 💡', 'C\'est un réussite. 🤔');
-  } else {
-    printMessage('Conclusion 💡', 'Encore un petit effort.  🤔');
-  }
-});
+
+if (success==tests.length) {
+  printMessage('Conclusion 💡', 'C\'est un réussite. 🤔');
+} else {
+  printMessage('Conclusion 💡', 'Encore un petit effort.  🤔');
+}
+
 
 function createTests() {
   let tests = [
