@@ -24,6 +24,9 @@ plan:
   - title: Quelques exemples
     statement: markdowns/exemples.md
 
+  - title: Exercice 1
+    statement: markdowns/exercice_1.md
+
 projects:
   nodejs:
     root: /nodejs-project
