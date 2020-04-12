@@ -9,14 +9,14 @@ initialiser k et n respectivement à 1 et 0
 répéter tant que k est strictement inférieur à 1000-n
 a <- b
 b <- c + a
-c <- 3*c + 4*a - b
+c <- 3\*c + 4\*a - b
 n <- a + b
 augmenter k de 1
 fin répéter
 Défi
 Ecrire la fonction qui, étant donné les valeurs de a, b et c renvoie la valeur de c à la fin de l'algorithme.
 
-@[Ecrire l'algorythme.]({ "stubs": ["professeur_guique.js"], "command": "node_modules/mocha/bin/mocha professeur_guique.spec.js --reporter list" })
+@[Ecrire l'algorythme.]({ "stubs": ["professeur_guique.js"], "command": "node_modules/mocha/bin/mocha professeur_guique.spec.js" })
 
     Check out the markdown file [`welcome.md`](https://github.com/TechDotIO/nodejs-template/blob/master/markdowns/welcome.md) to see how this exercise is injected into the template.
 
