@@ -8,53 +8,23 @@ Array.prototype.reduce = function () {
   return superReduce.apply(this, arguments);
 };
 
-for (let i = 0; i < 10; i ++) {
-  let tests = createTests();
-
-  it('should sum stars', function () {
-    try {
-        if (i % 2) {
-        assert.equal(1,1);
-    }
-      else { assert.equal(algorithmeProfesseurGuiqueAnswer(galaxies), universe.algorithmeProfesseurGuique(galaxies)); }
-
-    } catch (error) {
-
-      throw error;
-    }
-  });
-}
 let tests = createTests();
+let success = 0;
 tests.forEach(function(test) {
   if(universe.algorithmeProfesseurGuique.apply(null, test.values) === test.answer){
     printMessage('success', '✓ '+test.name+' succed');
+    success++;
   }
   else{
     printMessage('error', 'X '+test.name+' failed');
   }
 }, this);
 
-it('should sum stars', function () {
-  try {
-    let galaxies;
-    galaxies = [1, 2, 3]; assert.equal(countAllStarsAnswer(galaxies), universe.countAllStars(galaxies));
-    galaxies = [20, 20, 2]; assert.equal(countAllStarsAnswer(galaxies), universe.countAllStars(galaxies));
-    galaxies = [10, 3, 2, 1]; assert.equal(countAllStarsAnswer(galaxies), universe.countAllStars(galaxies));
-
-    if (reduceUsed) {
-      printMessage('My personal Yoda, you are. 🙏', '* ● ¸ .　¸. :° ☾ ° 　¸. ● ¸ .　　¸.　:. • ');
-      printMessage('My personal Yoda, you are. 🙏', '           　★ °  ☆ ¸. ¸ 　★　 :.　 .   ');
-      printMessage('My personal Yoda, you are. 🙏', '__.-._     ° . .　　　　.　☾ ° 　. *   ¸ .');
-      printMessage('My personal Yoda, you are. 🙏', '\'-._\\7\'      .　　° ☾  ° 　¸.☆  ● .　　　');
-      printMessage('My personal Yoda, you are. 🙏', ' /\'.-c    　   * ●  ¸.　　°     ° 　¸.    ');
-      printMessage('My personal Yoda, you are. 🙏', ' |  /T      　　°     ° 　¸.     ¸ .　　  ');
-      printMessage('My personal Yoda, you are. 🙏', '_)_/LI');
-    } else {
-      printMessage('Hint 💡', 'Do you know the reduce function in JavaScript? 🤔');
-    }
-  } catch (error) {
-    printMessage('Hint 💡', 'Did you properly accumulate all stars into \'totalStars\'? 🤔');
-    throw error;
+it('Un peu d\'aide ?', function () {
+  if (success==10) {
+    printMessage('Conclusion 💡', 'C\'est un réussite. 🤔');
+  } else {
+    printMessage('Conclusion 💡', 'Encore un petit effort.  🤔');
   }
 });
 
