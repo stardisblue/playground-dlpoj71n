@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>TP 3</title>
+
+<body>
+    <form>
+        check 1 <input type="text" name="check" value="1"><br />
+        all <input type="checkbox" id="checkall" value="1" onchange='toto()'><br />
+        check 1 <input type="checkbox" name="check" value="1"><br />
+        check 2 <input type="checkbox" name="check" value="1"><br />
+        check 3 <input type="checkbox" name="check" value="1"><br />
+        check 4 <input type="checkbox" name="check" value="1"><br />
+        check 5 <input type="checkbox" name="check" value="1"><br />
+    </form>
+    <button value="select all" onclick="selectAll(true)">select all</button><br />
+    <button value="deselect all" onclick="selectAll(false)">deselect all</button><br />
+    <button value="deselect all" onclick="mirroir(false)">mirroir</button><br />
+
+
+<p id="demo">toto</p>
+    <button onclick="document.getElementById('demo').innerHTML = Date()">The time is?
+        </button>
+    <script>
+        function toto() {
+            var checkall=document.getElementById('checkall');
+            if (checkall.checked) { selectAll(true); }
+            else { selectAll(false);}
+        }
+
+        function selectAll(value) {
+            var inputs = document.getElementsByName('check');
+            for (var i = 0; i < inputs.length; i++) {
+                if (inputs[i].type == "checkbox") {
+                    console.log(inputs[i]);
+                    inputs[i].checked = value;
+                }
+            }
+        }
+
+        function mirroir() {
+            var inputs = document.getElementsByName('check');
+            for (var i = 0; i < inputs.length; i++) {
+                if (inputs[i].type == "checkbox") {
+                    console.log(inputs[i]);
+                    inputs[i].checked = !(inputs[i].checked);
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>
