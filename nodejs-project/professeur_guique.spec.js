@@ -26,7 +26,7 @@ for (let i = 0; i < 10; i ++) {
 }
 let tests = createTests();
 tests.forEach(function(test) {
-  if(assert.equal(algorithmeProfesseurGuique.apply(null, test.values), test.answer);){
+  if(algorithmeProfesseurGuique.apply(null, test.values) === test.answer){
     printMessage('success', '✓ '+test.name+' succed');
   }
   else{
