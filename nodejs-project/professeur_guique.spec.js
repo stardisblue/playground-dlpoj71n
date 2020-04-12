@@ -14,9 +14,9 @@ tests.forEach(function(test) {
 
 
 if (success==tests.length) {
-  printMessage('Conclusion 💡', 'C\'est un réussite. 🤔');
+  printMessage('Standard Output', 'C\'est un réussite. 🤔');
 } else {
-  printMessage('Conclusion 💡', 'Encore un petit effort.  🤔');
+  printMessage('Standard Output💡', 'Encore un petit effort.  🤔');
 }
 
 
