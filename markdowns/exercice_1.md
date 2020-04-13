@@ -15,7 +15,7 @@ fin répéter
 Défi
 Ecrire la fonction qui, étant donné les valeurs de a, b et c renvoie la valeur de c à la fin de l'algorithme.
 
-@[Ecrire l'algorythme.]({ "stubs": ["professeur_guique.js"], "command": "node_modules/mocha/bin/mocha professeur_guique.spec.js --reporter nyan"})
+@[Professeur Guique.]({ "stubs": ["professeur_guique.js"], "command": "node_modules/mocha/bin/mocha professeur_guique.spec.js --reporter"})
 
     Check out the markdown file [`welcome.md`](https://github.com/TechDotIO/nodejs-template/blob/master/markdowns/welcome.md) to see how this exercise is injected into the template.
 
@@ -31,7 +31,7 @@ Tant que A est différent de 1, exécuter les instructions suivantes :
     Sinon remplacer A par A/2
     Afficher A
 
-@[Ecrire l'algorythme.]({ "stubs": ["manipulation_de_nombres.js"], "command": "node_modules/mocha/bin/mocha manipulation_de_nombres.spec.js --reporter nyan" })
+@[Ecrire l'algorythme.]({ "stubs": ["manipulation_de_nombres.js"], "command": "node_modules/mocha/bin/mocha manipulation_de_nombres.spec.js --reporter" })
 
 
 # Un second test
