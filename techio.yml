@@ -1,9 +1,19 @@
 title: Exercices - Module M2206 - MMI1
 plan:
-  - title: Premiers exercices
-    statement: markdowns/exercice_1.md
-  - title: Seconds exercices
-    statement: markdowns/exercice_2.md
+  - title: Année Bissextile
+    statement: markdowns/Bissextile.md
+  - title: Professeur Guique
+    statement: markdowns/Guique.md
+  - title: Jardin des Hespérides
+    statement: markdowns/Hesperide.md
+  - title: Manipulation de nombres
+    statement: markdowns/Manipulation_de_nombres.md
+  - title: Un peu de calculs
+    statement: markdowns/Peu_de_calculs.md
+  - title: Tony Stark
+    statement: markdowns/Tony_Stark.md
+  - title: Vitesse lumière
+    statement: markdowns/Vitesse_lumiere.md
 
 projects:
   nodejs:
