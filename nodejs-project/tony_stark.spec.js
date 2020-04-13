@@ -24,48 +24,53 @@ function createTests() {
   let tests = [
     {
       name:"Test 0",
-      values:[6],
-      answer:desamorcageTonyStarkAnswer(6)
+      values:[132],
+      answer:desamorcageTonyStarkAnswer(132)
     },
     {
       name:"Test 1",
-      values:[50],
-      answer:desamorcageTonyStarkAnswer(50)
+      values:[1325],
+      answer:desamorcageTonyStarkAnswer(1325)
     },
     {
       name:"Test 2",
-      values:[75],
-      answer:desamorcageTonyStarkAnswer(75)
+      values:[9562],
+      answer:desamorcageTonyStarkAnswer(9562)
     },
     {
       name:"Test 3",
-      values:[10],
-      answer:desamorcageTonyStarkAnswer(10)
+      values:[6853],
+      answer:desamorcageTonyStarkAnswer(6853)
     },
     {
       name:"Test 4",
-      values:[16],
-      answer:desamorcageTonyStarkAnswer(16)
+      values:[7470],
+      answer:desamorcageTonyStarkAnswer(7470)
     },
     {
       name:"Test 5",
-      values:[68],
-      answer:desamorcageTonyStarkAnswer(68)
+      values:[5394],
+      answer:desamorcageTonyStarkAnswer(5394)
     },
     {
       name:"Test 6",
-      values:[30],
-      answer:desamorcageTonyStarkAnswer(30)
+      values:[1919],
+      answer:desamorcageTonyStarkAnswer(1919)
     },
     {
       name:"Test 7",
-      values:[23],
-      answer:desamorcageTonyStarkAnswer(23)
+      values:[9306],
+      answer:desamorcageTonyStarkAnswer(9306)
     },
     {
       name:"Test 8",
-      values:[30],
-      answer:desamorcageTonyStarkAnswer(30)
+      values:[1981],
+      answer:desamorcageTonyStarkAnswer(1981)
+    },
+    {
+      name:"Test 9",
+      values:[6584],
+      answer:desamorcageTonyStarkAnswer(6584)
     }
   ]
 
