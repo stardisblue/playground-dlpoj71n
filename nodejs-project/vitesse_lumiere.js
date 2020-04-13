@@ -4,6 +4,6 @@ function vitesseLumiere(x, y, z) {
 
 // { autofold
 module.exports = {
-    leJardinDesHesperides: leJardinDesHesperides
+    vitesseLumiere: vitesseLumiere
 };
 // }

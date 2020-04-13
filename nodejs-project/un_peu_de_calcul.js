@@ -4,6 +4,6 @@ function calcul_1(a) {
 
 // { autofold
 module.exports = {
-    leJardinDesHesperides: leJardinDesHesperides
+    calcul_1: calcul_1
 };
 // }

@@ -4,6 +4,6 @@ function desamorcageTonyStark(n) {
 
 // { autofold
 module.exports = {
-    leJardinDesHesperides: leJardinDesHesperides
+    desamorcageTonyStark: desamorcageTonyStark
 };
 // }

@@ -5,6 +5,6 @@ function bissextile(annee)
 
 // { autofold
 module.exports = {
-    leJardinDesHesperides: leJardinDesHesperides
+    bissextile: bissextile
 };
 // }
