@@ -1,7 +1,9 @@
 title: Exercices - Module M2206 - MMI1
 plan:
-  - title: Exercice 1
+  - title: Premiers exercices
     statement: markdowns/exercice_1.md
+  - title: Seconds exercices
+    statement: markdowns/exercice_2.md
 
 projects:
   nodejs:
