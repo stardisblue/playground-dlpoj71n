@@ -44,7 +44,7 @@ Pour son 11e travail, Eurysthée demanda à Hercule de ramener ces pommes.
 
 Une fois atteint le jardin merveilleux, l'oracle Nérée apprit à Hercule qu'il pourrait repartir avec une partie des pommes... à condition qu'il montre ses facultés en calcul mental.
 
-Nérée lui tint ce propos :
+Nérée lui tint ce propos manipulation_de_nombres:
 
 J'ai empilé les pommes d'or pour toi, sous la forme d'une pyramide.
 L'étage le plus haut ne contient qu'une pomme.
@@ -65,7 +65,30 @@ Au total il aurait donc emporté 45 pommes.
 
 Défi
 Ecrire la fonction permettant à Hercule de calculer le nombre de pommes pouvant être emportées étant donné le nombre d'étage
+
 @[Ecrire l'algorythme.]({ "stubs": ["le_jardin_des_hesperides.js"], "command": "node_modules/mocha/bin/mocha le_jardin_des_hesperides.spec.js --reporter"})
+
+# Désamorçage à la Tony Stark
+  Un moyen mnémotechnique mais pas forcément pratique...
+  
+  Extrait de https://callicode.fr/pydefis/SpymasterBomb/txt
+  
+  Tony Stark a l'habitude de placer une porte dérobée dans toutes ses armes : une sorte de code qui lui permet de les désactiver dans le cas où les armes seraient retournées contre lui.
+  
+  Ainsi, quand le Spymaster, après avoir dérobé une bombe puissante à Stark Industries, la plaça en plein cœur d'une métropole dans l'espoir de détruire Iron-Man, il ne savait pas que ce dernier possédait un code particulier pour la désamorcer.
+  
+  Toutefois, entre deux soirées mondaines, Tony Stark a une fâcheuse tendance à oublier les codes de secours de ses appareils.
+  
+  Il utilise donc généralement un moyen mnémotechnique pour les retrouver... plus ou moins rapidement.
+  
+  Tout ce dont il se souvient, c'est que le code à entrer est la somme de tous les nombres qui sont multiples de 3 ou de 5, et qui sont strictement inférieurs à un autre nombre.
+  
+  Cet autre nombre est gravé sur la bombe.
+  
+  Défi
+  Ecrire une fonction qui, étant donné le nombre gravé sur la bombe, calcule le code désamorçage.
+
+@[Ecrire l'algorythme.]({ "stubs": ["tony_stark.js"], "command": "node_modules/mocha/bin/mocha tony_stark.spec.js --reporter"})
 
 
 # Un second test
