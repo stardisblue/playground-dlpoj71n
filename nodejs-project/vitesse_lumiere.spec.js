@@ -70,7 +70,7 @@ function createTests() {
     {
       name:"Test 9",
       values:[293,305,583],
-      answer:vitesseLumiereAnswer(65293,305,583)
+      answer:vitesseLumiereAnswer(293,305,583)
     }
   ]
 
