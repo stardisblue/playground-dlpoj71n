@@ -1,5 +1,6 @@
-# L'algorithme du professeur Guique
+# Hands-on Demo
 
+L'algorithme du professeur Guique
 Extrait de https://callicode.fr/pydefis/Algorithme/txt
 
     les valeurs a, b et c sont fournies en paramètre à l'algorithme.
@@ -15,23 +16,11 @@ fin répéter
 Défi
 Ecrire la fonction qui, étant donné les valeurs de a, b et c renvoie la valeur de c à la fin de l'algorithme.
 
-@[Professeur Guique.]({ "stubs": ["professeur_guique.js"], "command": "node_modules/mocha/bin/mocha professeur_guique.spec.js --reporter"})
+@[Ecrire l'algorythme.]({ "stubs": ["professeur_guique.js"], "command": "node_modules/mocha/bin/mocha professeur_guique.spec.js" })
 
     Check out the markdown file [`welcome.md`](https://github.com/TechDotIO/nodejs-template/blob/master/markdowns/welcome.md) to see how this exercise is injected into the template.
 
-# Manipulation de nombres
 
-Considérons l’algorithme suivant :
-
-    Soit un entier naturel A.
-    
-Tant que A est différent de 1, exécuter les instructions suivantes :
-
-    Si A est impair, alors remplacer A par 3 x A + 1
-    Sinon remplacer A par A/2
-    Afficher A
-
-@[Ecrire l'algorythme.]({ "stubs": ["manipulation_de_nombres.js"], "command": "node_modules/mocha/bin/mocha manipulation_de_nombres.spec.js --reporter" })
 
 
 # Un second test
