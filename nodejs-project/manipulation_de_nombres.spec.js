@@ -24,53 +24,53 @@ function createTests() {
   let tests = [
     {
       name:"Test 0",
-      values:[1,2,0],
-      answer:manipulationDeNombresAnswer(1,2,0)
+      values:[3],
+      answer:manipulationDeNombresAnswer(3)
     },
     {
       name:"Test 1",
-      values:[1,2,1],
-      answer:manipulationDeNombresAnswer(1,2,1)
+      values:[2],
+      answer:manipulationDeNombresAnswer(2)
     },
     {
       name:"Test 2",
-      values:[1,2,2],
-      answer:manipulationDeNombresAnswer(1,2,2)
+      values:[20],
+      answer:manipulationDeNombresAnswer(20)
     },
     {
       name:"Test 3",
-      values:[14,63,55],
-      answer:manipulationDeNombresAnswer(14,63,55)
+      values:[57],
+      answer:manipulationDeNombresAnswer(57)
     },
     {
       name:"Test 4",
-      values:[13,35,100],
-      answer:manipulationDeNombresAnswer(13,35,100)
+      values:[13],
+      answer:manipulationDeNombresAnswer(13)
     },
     {
       name:"Test 5",
       values:[16,56,12],
-      answer:manipulationDeNombresAnswer(16,56,12)
+      answer:manipulationDeNombresAnswer(56)
     },
     {
       name:"Test 6",
       values:[49,73,28],
-      answer:manipulationDeNombresAnswer(49,73,28)
+      answer:manipulationDeNombresAnswer(73)
     },
     {
       name:"Test 7",
       values:[73,74,76],
-      answer:manipulationDeNombresAnswer(73,74,76)
+      answer:manipulationDeNombresAnswer(736)
     },
     {
       name:"Test 8",
-      values:[92,83,92],
-      answer:manipulationDeNombresAnswer(92,83,92)
+      values:[929],
+      answer:manipulationDeNombresAnswer(929)
     },
     {
       name:"Test 9",
-      values:[40,13,38],
-      answer:manipulationDeNombresAnswer(40,13,38)
+      values:[408],
+      answer:manipulationDeNombresAnswer(408)
     }
   ]
 
