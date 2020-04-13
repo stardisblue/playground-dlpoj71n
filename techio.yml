@@ -16,6 +16,8 @@ plan:
     statement: markdowns/Vitesse_lumiere.md
   - title: Suite décimée
     statement: markdowns/Suite_decimee.md
+  - title: Sanglier d'Erymanthe
+    statement: markdowns/Erymanthe.md
 
 projects:
   nodejs:
