@@ -3,7 +3,7 @@
 let tests = createTests();
 let success = 0;
 tests.forEach(function(test) {
-  if(exercice.tocBoum.apply(null, test.values) === test.answer){
+  if(exercice.tocBoum.apply(null, test.values) == test.answer){
     printMessage('Success', '✓ '+test.name+' succed');
     success++;
   }

@@ -49,17 +49,17 @@ function createTests() {
     },
     {
       name:"Test 5",
-      values:[16,56,12],
+      values:[56],
       answer:manipulationDeNombresAnswer(56)
     },
     {
       name:"Test 6",
-      values:[49,73,28],
+      values:[73],
       answer:manipulationDeNombresAnswer(73)
     },
     {
       name:"Test 7",
-      values:[73,74,76],
+      values:[736],
       answer:manipulationDeNombresAnswer(736)
     },
     {
