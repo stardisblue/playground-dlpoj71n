@@ -17,7 +17,7 @@ tests.forEach(function(test) {
 
 try {
   assert.equal(success, tests.length);
-  printMessage('Standard Output', 'C\'est une réussite.🤔');
+  printMessage('Standard Output', 'C\'est une réussite ! ');
   success++;
 } catch (error) {
   printMessage('Standard Output💡', 'Encore un petit effort.🤔');
