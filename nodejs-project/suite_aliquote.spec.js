@@ -14,7 +14,6 @@ tests.forEach(function(test) {
   }
 }, this);
 
-
 try {
   assert.equal(success, tests.length);
   printMessage('Standard Output', 'C\'est une réussite.🤔');
