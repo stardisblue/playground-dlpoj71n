@@ -19,4 +19,5 @@
   si le nombre d'étapes à appliquer est égal à 1, alors la somme des valeurs obtenues vaut 245
   si le nombre d'étapes à appliquer est égal à 10, alors la somme des valeurs obtenues vaut 289
   si le nombre d'étapes à appliquer est égal à 23, alors la somme des valeurs obtenues vaut 287
+  
 @[Ecrire l'algorythme.]({ "stubs": ["insaisissable.js"], "command": "node_modules/mocha/bin/mocha insaisissable.spec.js --reporter"})
