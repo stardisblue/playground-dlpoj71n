@@ -80,7 +80,7 @@ function tocBoumAnswer(n)
   {
     for(let b=0; (13*a+7*b)<=n; b++)
     {
-      let r = 13*$a + 7*$b;
+      let r = 13*a + 7*b;
       if(r == n)
       {
         paires.push([a, b]);
