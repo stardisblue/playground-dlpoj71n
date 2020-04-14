@@ -4,10 +4,10 @@
   En commençant par 1 et 1, les 10 premiers termes sont les suivants :
   
   1, 1, 2, 3, 5, 8, 13, 21, 34, 55, ...
-  En prenant en compte les termes de la suite de Fibonacci dont les valeurs ne dépassent pas N (<= 10 millions), trouver la somme des termes impairs.
+  <br/>En prenant en compte les termes de la suite de Fibonacci dont les valeurs ne dépassent pas N (<= 10 millions), trouver la somme des termes impairs.
   
   Testez votre code
-  L'appel "sommeImpairsFibonacci(10)" génère les valeurs suivantes : 1,1,2,3,5,8
+  <br/>L'appel "sommeImpairsFibonacci(10)" génère les valeurs suivantes : 1,1,2,3,5,8
   
   Les calculs s'arrêtent à 8 car la valeur suivante (13) est supérieure à 10.
   
