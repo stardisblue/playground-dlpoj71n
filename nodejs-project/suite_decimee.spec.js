@@ -5,19 +5,20 @@ let assert = require('assert');
 let tests = createTests();
 let success = 0;
 tests.forEach(function(test) {
-  try {
-    assert.equal(exercice.suiteDecimee.apply(null, test.values), test.answer);
+  if(exercice.suiteDecimee.apply(null, test.values) === test.answer){
     printMessage('Success', '✓ '+test.name+' succed');
     success++;
-  } catch (error) {
+  }
+  else{
     printMessage('Error', 'X '+test.name+' failed');
   }
 }, this);
 
-
-if (success==tests.length) {
+try {
+  assert.equal(success, tests.length);
   printMessage('Standard Output', 'C\'est une réussite. 🤔');
-} else {
+  success++;
+} catch (error) {
   printMessage('Standard Output💡', 'Encore un petit effort.  🤔');
   throw error;
 }
