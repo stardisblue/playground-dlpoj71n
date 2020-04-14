@@ -1,4 +1,4 @@
-﻿﻿let assert = require('assert');
+﻿let assert = require('assert');
 let universe = require('./universe.js');
 
 let reduceUsed = false;

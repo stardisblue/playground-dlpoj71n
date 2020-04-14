@@ -75,12 +75,12 @@ function createTests() {
 function suiteDecimeeAnswer(n)
 {
   let somme = 0;
-  for(let i=1;$i<=$n;$i++)
+  for(let i=1; i<=n; i++)
   {
     let digits = i.toString().split('').map(Number);
     if(digits.indexOf(9)===-1)
     {
-      somme += 1/$i;
+      somme += 1/i;
     }
   }
   return somme;
