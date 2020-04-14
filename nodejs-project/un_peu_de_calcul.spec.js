@@ -1,4 +1,6 @@
 ﻿let exercice = require('./un_peu_de_calcul.js');
+let assert = require('assert');
+
 
 let tests = createTests();
 let success = 0;
@@ -13,10 +15,14 @@ tests.forEach(function(test) {
 }, this);
 
 
-if (success==tests.length) {
-  printMessage('Standard Output', 'C\'est une réussite. 🤔');
-} else {
-  printMessage('Standard Output💡', 'Encore un petit effort.  🤔');
+try {
+  assert.equal(success, tests.length);
+  printMessage('Standard Output', 'C\'est une réussite.🤔');
+  success++;
+} catch (error) {
+  printMessage('Standard Output💡', 'Encore un petit effort.🤔');
+  console.log('\nTECHIO> success false')
+  console.error("Tous les tests ne sont pas justes !");
 }
 
 
