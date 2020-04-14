@@ -15,4 +15,4 @@
   
   Le résultat attendu est donc 10.
   
-@[Ecrire l'algorythme.]({ "stubs": ["fibonacci.js"], "command": "node_modules/mocha/bin/mocha fibonacci.spec.js --reporter"})
+@[Ecrire l'algorythme.]({ "stubs": ["fibonacci.js"], "command": "node_modules/mocha/bin/mocha fibonacci.spec.js"})

@@ -32,4 +32,4 @@ Si le calcul dure plus de 10000 pas de temps, alors les coordonnées du point d'
 Défi
 Fournissez les navi-composantes obtenues par l'algorithme qui précède pour valider le défi et passer en vitesse lumière.
 
-@[Ecrire l'algorythme.]({ "stubs": ["vitesse_lumiere.js"], "command": "node_modules/mocha/bin/mocha vitesse_lumiere.spec.js --reporter"})
+@[Ecrire l'algorythme.]({ "stubs": ["vitesse_lumiere.js"], "command": "node_modules/mocha/bin/mocha vitesse_lumiere.spec.js"})

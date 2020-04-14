@@ -31,4 +31,4 @@ Au total il aurait donc emporté 45 pommes.
 Défi
 Ecrire la fonction permettant à Hercule de calculer le nombre de pommes pouvant être emportées étant donné le nombre d'étage
 
-@[Ecrire l'algorythme.]({ "stubs": ["le_jardin_des_hesperides.js"], "command": "node_modules/mocha/bin/mocha le_jardin_des_hesperides.spec.js --reporter"})
+@[Ecrire l'algorythme.]({ "stubs": ["le_jardin_des_hesperides.js"], "command": "node_modules/mocha/bin/mocha le_jardin_des_hesperides.spec.js"})

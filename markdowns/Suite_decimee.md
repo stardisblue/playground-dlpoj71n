@@ -11,4 +11,4 @@
   Défi
   La valeur de n est fournie et vous devez écrire une fonction permettant de déterminer la valeur de T(n).
   
-@[Ecrire l'algorythme.]({ "stubs": ["suite_decimee.js"], "command": "node_modules/mocha/bin/mocha suite_decimee.spec.js --reporter"})
+@[Ecrire l'algorythme.]({ "stubs": ["suite_decimee.js"], "command": "node_modules/mocha/bin/mocha suite_decimee.spec.js"})

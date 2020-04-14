@@ -27,4 +27,4 @@
   Défi
   Écrire une fonction qui, étant donné un entier n passé en paramètre, fournie la suite aliquote de n sous forme de tableau.
 
-@[Ecrire l'algorythme.]({ "stubs": ["suite_aliquote.js"], "command": "node_modules/mocha/bin/mocha suite_aliquote.spec.js --reporter"})
+@[Ecrire l'algorythme.]({ "stubs": ["suite_aliquote.js"], "command": "node_modules/mocha/bin/mocha suite_aliquote.spec.js"})

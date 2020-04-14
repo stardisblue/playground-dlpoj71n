@@ -16,4 +16,4 @@
   si l'entrée fournie est 287, les couples \[a,b] possibles sont \[7,28], \[14,15] et \[21,2].
   
   Le couple \[a,b] solution (celui pour lequel a et b sont les plus proche) est donc \[14,15].  
-@[Ecrire l'algorythme.]({ "stubs": ["toc_boum.js"], "command": "node_modules/mocha/bin/mocha toc_boum.spec.js --reporter"})
+@[Ecrire l'algorythme.]({ "stubs": ["toc_boum.js"], "command": "node_modules/mocha/bin/mocha toc_boum.spec.js"})
