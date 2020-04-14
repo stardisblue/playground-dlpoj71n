@@ -11,7 +11,6 @@ tests.forEach(function(test) {
     success++;
   } catch (error) {
     printMessage('Error', 'X '+test.name+' failed');
-    throw error;
   }
 }, this);
 
@@ -20,8 +19,7 @@ if (success==tests.length) {
   printMessage('Standard Output', 'C\'est une réussite. 🤔');
 } else {
   printMessage('Standard Output💡', 'Encore un petit effort.  🤔');
-  console.log('TECHIO> success false');
-
+  throw error;
 }
 
 
