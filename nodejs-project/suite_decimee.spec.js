@@ -1,14 +1,17 @@
 ﻿let exercice = require('./suite_decimee.js');
+let assert = require('assert');
+
 
 let tests = createTests();
 let success = 0;
 tests.forEach(function(test) {
-  if(exercice.suiteDecimee.apply(null, test.values) === test.answer){
+  try {
+    assert.equal(exercice.suiteDecimee.apply(null, test.values), test.answer);
     printMessage('Success', '✓ '+test.name+' succed');
     success++;
-  }
-  else{
+  } catch (error) {
     printMessage('Error', 'X '+test.name+' failed');
+    throw error;
   }
 }, this);
 
