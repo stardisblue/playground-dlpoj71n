@@ -11,13 +11,14 @@
   
   La fonction a écrire prend en paramètre deux variables :
   
-  la première est la matrice à manipuler
-  la deuxième est le nombre d'étapes à appliquer
+  La première est la matrice à manipuler
+  <br/>La deuxième est le nombre d'étapes à appliquer
   Vous devez répondre en donnant la somme des valeurs contenues dans la matrice après application de toutes les étapes.
   
   Testez votre code
-  si le nombre d'étapes à appliquer est égal à 1, alors la somme des valeurs obtenues vaut 245
-  si le nombre d'étapes à appliquer est égal à 10, alors la somme des valeurs obtenues vaut 289
-  si le nombre d'étapes à appliquer est égal à 23, alors la somme des valeurs obtenues vaut 287
+
+    si le nombre d'étapes à appliquer est égal à 1, alors la somme des valeurs obtenues vaut 245
+    si le nombre d'étapes à appliquer est égal à 10, alors la somme des valeurs obtenues vaut 289
+    si le nombre d'étapes à appliquer est égal à 23, alors la somme des valeurs obtenues vaut 287
   
 @[Ecrire l'algorythme.]({ "stubs": ["insaisissable.js"], "command": "node_modules/mocha/bin/mocha insaisissable.spec.js"})
