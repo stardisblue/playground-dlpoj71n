@@ -28,6 +28,8 @@ plan:
     statement: markdowns/NombresPremiers.md
   - title: Toc Boum
     statement: markdowns/TocBoum.md
+  - title: Impairs de la suite de Fibonacci
+    statement: markdowns/Fibonacci.md
 
 projects:
   nodejs:
