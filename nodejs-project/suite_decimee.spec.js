@@ -20,6 +20,7 @@ try {
   success++;
 } catch (error) {
   printMessage('Standard Output💡', 'Encore un petit effort.  🤔');
+  console.log('\nTECHIO> success false')
   console.error("Tous les tests ne sont pas justes!");
 }
 
