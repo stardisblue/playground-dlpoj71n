@@ -20,7 +20,7 @@ try {
   success++;
 } catch (error) {
   printMessage('Standard Output💡', 'Encore un petit effort.  🤔');
-  //throw "Tous les tests ne sont pas justes.!";
+  console.error("Tous les tests ne sont pas justes!");
 }
 
 
