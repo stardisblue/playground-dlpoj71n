@@ -16,6 +16,6 @@
   Cet autre nombre est gravé sur la bombe.
   
   Défi
-  Ecrire une fonction qui, étant donné le nombre gravé sur la bombe, calcule le code désamorçage.
+  <br/>Ecrire une fonction qui, étant donné le nombre gravé sur la bombe, calcule le code désamorçage.
 
 @[Ecrire l'algorythme.]({ "stubs": ["tony_stark.js"], "command": "node_modules/mocha/bin/mocha tony_stark.spec.js"})
