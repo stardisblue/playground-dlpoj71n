@@ -5,7 +5,7 @@ plan:
   - title: Professeur Guique
     statement: markdowns/Guique.md
   - title: Jardin des Hespérides
-    statement: markdowns/Hesperide.md
+    statement: markdowns/Hesperides.md
   - title: Manipulation de nombres
     statement: markdowns/Manipulation_de_nombres.md
   - title: Un peu de calculs
@@ -20,8 +20,14 @@ plan:
     statement: markdowns/Erymanthe.md
   - title: Constante de Champernowne
     statement: markdowns/Champernowne.md
+  - title: Insaisissable matrice
+    statement: markdowns/Insaisissable.md
   - title: Suite de Aliquote
     statement: markdowns/Aliquote.md
+  - title: Nombres Premiers
+    statement: markdowns/NombresPremiers.md
+  - title: Toc Boum
+    statement: markdowns/TocBoum.md
 
 projects:
   nodejs:
