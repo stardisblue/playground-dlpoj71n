@@ -124,7 +124,7 @@ function suiteAliquoteAnswer(n0)
         n=1;
         erreur=1;
       }
-    else
+      else
       {
         suite.push(n);
       }
