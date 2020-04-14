@@ -13,7 +13,7 @@ tests.forEach(function(test) {
 }, this);
 
 
-if (success==tests.length) {
+if (success === tests.length) {
   printMessage('Standard Output', 'C\'est une réussite. 🤔');
 } else {
   printMessage('Standard Output💡', 'Encore un petit effort.  🤔');

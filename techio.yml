@@ -20,6 +20,8 @@ plan:
     statement: markdowns/Erymanthe.md
   - title: Constante de Champernowne
     statement: markdowns/Champernowne.md
+  - title: Suite de Aliquote
+    statement: markdowns/Aliquote.md
 
 projects:
   nodejs:

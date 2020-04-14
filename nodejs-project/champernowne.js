@@ -1,6 +1,6 @@
-function constanteDeChampernowne(montagnes)
+function constanteDeChampernowne(n1,n2)
 {
- return montagnes;
+ return n1,n2;
 }
 
 // { autofold
