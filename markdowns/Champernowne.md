@@ -1,7 +1,8 @@
 # Constante de Champernowne
   Extrait de https://callicode.fr/pydefis/Champernowne/txt
   
-  La constante de Champernowne est un nombre compris entre 0 et 1, dont le dévelopopement décimal est obtenu en écrivant successivement les nombre entiers. Elle commence ainsi : 0,12345678910111213141515171819202122...
+  La constante de Champernowne est un nombre compris entre 0 et 1, dont le dévelopopement décimal est obtenu en écrivant successivement les nombre entiers.
+  <br/>Elle commence ainsi : 0,12345678910111213141515171819202122...
   
   Numérotons les chiffres situés après la virgule.
   
