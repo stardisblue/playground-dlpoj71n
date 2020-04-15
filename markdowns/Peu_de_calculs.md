@@ -9,4 +9,4 @@ Considérons la fonction f(n) définit de la manière suivante :
 
 Ecrire la fonction permettant de calculer la valeur de f pour n fourni en paramètre.
 
-@[Ecrire l'algorythme.]({ "stubs": ["un_peu_de_calcul.js"], "command": "node_modules/mocha/bin/mocha un_peu_de_calcul.spec.js"})
+@[Écrire l'algorithme.]({ "stubs": ["un_peu_de_calcul.js"], "command": "node_modules/mocha/bin/mocha un_peu_de_calcul.spec.js"})

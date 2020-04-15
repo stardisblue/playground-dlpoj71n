@@ -32,4 +32,4 @@ Attention
 Défi
 <br/>Fournissez les navi-composantes obtenues par l'algorithme qui précède pour valider le défi et passer en vitesse lumière.
 
-@[Ecrire l'algorythme.]({ "stubs": ["vitesse_lumiere.js"], "command": "node_modules/mocha/bin/mocha vitesse_lumiere.spec.js"})
+@[Écrire l'algorithme.]({ "stubs": ["vitesse_lumiere.js"], "command": "node_modules/mocha/bin/mocha vitesse_lumiere.spec.js"})

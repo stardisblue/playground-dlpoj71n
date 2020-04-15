@@ -15,4 +15,4 @@ Les valeurs a, b et c sont fournies en paramètre à l'algorithme.
 Défi
 <br/>Ecrire la fonction qui, étant donné les valeurs de a, b et c renvoie la valeur de c à la fin de l'algorithme.
 
-@[Professeur Guique.]({ "stubs": ["professeur_guique.js"], "command": "node_modules/mocha/bin/mocha professeur_guique.spec.js"})
+@[Écrire l'algorithme.]({ "stubs": ["professeur_guique.js"], "command": "node_modules/mocha/bin/mocha professeur_guique.spec.js"})

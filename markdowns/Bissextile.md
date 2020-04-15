@@ -8,4 +8,4 @@ Problème
 Défi
 <br/>Écrire une fonction renvoyant 1 si une année fournie en paramètre est bissextile et 0 sinon.
 
-@[Ecrire l'algorythme.]({ "stubs": ["bissextile.js"], "command": "node_modules/mocha/bin/mocha bissextile.spec.js"})
+@[Écrire l'algorithme.]({ "stubs": ["bissextile.js"], "command": "node_modules/mocha/bin/mocha bissextile.spec.js"})

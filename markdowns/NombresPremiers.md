@@ -3,4 +3,4 @@
   
   Écrire la fonction permettant de trouver la somme des nombres premiers entre 1 et n (fournie en paramètre).
   
-@[Ecrire l'algorythme.]({ "stubs": ["nombres_premiers.js"], "command": "node_modules/mocha/bin/mocha nombres_premiers.spec.js"})
+@[Écrire l'algorithme.]({ "stubs": ["nombres_premiers.js"], "command": "node_modules/mocha/bin/mocha nombres_premiers.spec.js"})

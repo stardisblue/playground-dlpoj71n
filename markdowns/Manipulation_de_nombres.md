@@ -10,4 +10,4 @@ Tant que A est différent de 1, exécuter les instructions suivantes :
     Sinon remplacer A par A/2
     Afficher A
 
-@[Ecrire l'algorythme.]({ "stubs": ["manipulation_de_nombres.js"], "command": "node_modules/mocha/bin/mocha manipulation_de_nombres.spec.js"})
+@[Écrire l'algorithme.]({ "stubs": ["manipulation_de_nombres.js"], "command": "node_modules/mocha/bin/mocha manipulation_de_nombres.spec.js"})

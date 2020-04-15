@@ -23,4 +23,4 @@
   
   Vous devez indiquer à Hercule combien de pierre il aura à jeter sur le sanglier.
 
-@[Ecrire l'algorythme.]({ "stubs": ["erymanthe.js"], "command": "node_modules/mocha/bin/mocha erymanthe.spec.js"})
+@[Écrire l'algorithme.]({ "stubs": ["erymanthe.js"], "command": "node_modules/mocha/bin/mocha erymanthe.spec.js"})

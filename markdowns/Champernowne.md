@@ -19,4 +19,4 @@
                     11        21
   La réponse à donner serait alors : 0 + 1 + 1 + 1 + 2 + 1 + 3 + 1 + 4 + 1 + 5 = 20
   
-@[Professeur Guique.]({ "stubs": ["champernowne.js"], "command": "node_modules/mocha/bin/mocha champernowne.spec.js"})
+@[Écrire l'algorithme.]({ "stubs": ["champernowne.js"], "command": "node_modules/mocha/bin/mocha champernowne.spec.js"})
