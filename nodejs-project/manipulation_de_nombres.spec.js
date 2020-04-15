@@ -84,6 +84,7 @@ function createTests() {
 }
 
 function manipulationDeNombresAnswer(a){
+  let a_tab = []
   if(a==1)
   {
     return a;
@@ -98,8 +99,9 @@ function manipulationDeNombresAnswer(a){
     {
       a=a/2;
     }
-    return a;
+    return a_tab.push(a);
   }
+  return a_tab
 }
 
 function printMessage(channel, message) {
