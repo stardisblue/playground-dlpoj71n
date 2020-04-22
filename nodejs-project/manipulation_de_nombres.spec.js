@@ -83,7 +83,7 @@ function createTests() {
   return tests;
 }
 
-function manipulationDeNombresAnswerC(a){
+function manipulationDeNombresAnswer(a){
   let a_tab = []
   if(a==1)
   {
