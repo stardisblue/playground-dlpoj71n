@@ -103,10 +103,6 @@ function manipulationDeNombresAnswer(a){
   }
   return a_tab
 }
-// { autofold
-module.exports = {
-  manipulationDeNombre: manipulationDeNombre
-};
 
 function printMessage(channel, message) {
   console.log('\nTECHIO> message --channel "' + channel + '" "' + message + '"');
