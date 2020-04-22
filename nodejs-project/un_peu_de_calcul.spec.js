@@ -83,7 +83,7 @@ function createTests() {
   return tests;
 }
 
-function calcul_1Answer(n){
+function calcul_1Answer(n) {
   if (n===0){
     return 2;
   }
@@ -91,22 +91,23 @@ function calcul_1Answer(n){
     return 3;
   }
   else {
-      let a=2;
-      let b=3;
-      let i=2;
-      let c;
-      while (i<=n){
-        if(n%2===0){
-          c=b*2+a;
-        }
-        else {
-          c=b-a;
-        }
-        a=b;
-        b=c;
-        n--;}
-      return c;
+    let a=2; // f(0)
+    let b=3; // f(1)
+    let i=2; // n
+    let c; // f(n)
+    while (i<=n){ // i <= n
+      if(i%2===0){
+        c=b*2+a;
+      }
+      else {
+        c=b-a;
+      }
+      a=b;
+      b=c;
+      i++;
     }
+    return c;
+  }
 }
 
 function printMessage(channel, message) {
