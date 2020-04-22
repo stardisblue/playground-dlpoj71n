@@ -1,13 +1,26 @@
 ﻿let exercice = require('./manipulation_de_nombres.js');4
 let assert = require('assert');
 
+function arraysEqual(a, b) {
+  if (a === b) return true;
+  if (a == null || b == null) return false;
+  if (a.length != b.length) return false;
+
+  // If you don't care about the order of the elements inside
+  // the array, you should sort both arrays here.
+  // Please note that calling sort on an array will modify that array.
+  // you might want to clone your array first.
+
+  for (var i = 0; i < a.length; ++i) {
+    if (a[i] !== b[i]) return false;
+  }
+  return true;
+}
 
 let tests = createTests();
 let success = 0;
 tests.forEach(function(test) {
-  if(exercice.manipulationDeNombre.apply(null, test.values) === test.answer){
-    console.log(exercice.manipulationDeNombre.apply(null, test.values))
-    console.log(test.answer)
+  if(arraysEqual(exercice.manipulationDeNombre.apply(null, test.values), test.answer)){
     printMessage('Success', '✓ '+test.name+' succed');
     success++;
   }
