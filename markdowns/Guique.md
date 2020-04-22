@@ -8,7 +8,7 @@ Les valeurs a, b et c sont fournies en paramètre à l'algorithme.
     répéter tant que k est strictement inférieur à 1000-n
     a <- b
     b <- c + a
-    c <- 3\*c + 4\*a - b
+    c <- 3*c + 4*a - b
     n <- a + b
     augmenter k de 1
     fin répéter
