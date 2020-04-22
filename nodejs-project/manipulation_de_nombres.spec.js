@@ -6,6 +6,8 @@ let tests = createTests();
 let success = 0;
 tests.forEach(function(test) {
   if(exercice.manipulationDeNombre.apply(null, test.values) === test.answer){
+    console.log(exercice.manipulationDeNombre.apply(null, test.values))
+    console.log(test.answer)
     printMessage('Success', '✓ '+test.name+' succed');
     success++;
   }
@@ -84,7 +86,7 @@ function createTests() {
 }
 
 function manipulationDeNombresAnswer(a){
-  let a_tab = []
+  let a_tab = [];
   if(a==1)
   {
     a_tab.push(a);
@@ -101,7 +103,7 @@ function manipulationDeNombresAnswer(a){
     }
     a_tab.push(a);
   }
-  return a_tab
+  return a_tab;
 }
 
 function printMessage(channel, message) {
