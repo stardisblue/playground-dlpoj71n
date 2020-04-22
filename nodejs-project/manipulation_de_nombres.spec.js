@@ -83,11 +83,11 @@ function createTests() {
   return tests;
 }
 
-function manipulationDeNombresAnswer(a){
+function manipulationDeNombresAnswerC(a){
   let a_tab = []
   if(a==1)
   {
-    return a;
+    a_tab.push(a);
   }
   while(a!=1)
   {
@@ -99,10 +99,14 @@ function manipulationDeNombresAnswer(a){
     {
       a=a/2;
     }
-    return a_tab.push(a);
+    a_tab.push(a);
   }
   return a_tab
 }
+// { autofold
+module.exports = {
+  manipulationDeNombre: manipulationDeNombre
+};
 
 function printMessage(channel, message) {
   console.log('\nTECHIO> message --channel "' + channel + '" "' + message + '"');
