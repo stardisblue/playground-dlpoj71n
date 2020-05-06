@@ -20,7 +20,7 @@ function arraysEqual(a, b) {
 let tests = createTests();
 let success = 0;
 tests.forEach(function(test) {
-  if(arraysEqual(exercice.vitesseLumiere.apply(null, test.values), test.answer){
+  if(arraysEqual(exercice.vitesseLumiere.apply(null, test.values), test.answer)){
     printMessage('Success', '✓ '+test.name+' succed');
     success++;
   }
