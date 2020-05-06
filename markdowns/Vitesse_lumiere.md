@@ -30,6 +30,6 @@ Attention
 <br/>Si le calcul dure plus de 10000 pas de temps, alors les coordonnées du point d'arrivée seront considérées comme inaccessibles. La réponse attendue sera alors (-1,-1,-1).
 
 Défi
-<br/>Fournissez les navi-composantes obtenues par l'algorithme qui précède pour valider le défi et passer en vitesse lumière.
+<br/>Fournissez les navi-composantes obtenues par l'algorithme sous forme de tableau qui précède pour valider le défi et passer en vitesse lumière.
 
 @[Écrire l'algorithme.]({ "stubs": ["vitesse_lumiere.js"], "command": "node_modules/mocha/bin/mocha vitesse_lumiere.spec.js"})
